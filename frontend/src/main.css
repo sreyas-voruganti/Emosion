@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply p-4 bg-gray-100 rounded focus:outline-none w-full
+}
+
+.button {
+    @apply p-3 rounded focus:outline-none w-full
+}
